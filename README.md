@@ -12,12 +12,22 @@
 - gitを使う前に理解しておくべき一つの概念: 差分 = 編集 
 
 
-### 複数のファイル編集したを可視化する
+### 複数のファイルの差分を可視化する
 例
 ```sh 
 diff r1.py r2.py
 vimdiff r1.py r2.py
 ```
+
+### Branch
+- チーム開発の時に、`git clone`でコードダウンロードしてから最初にやること
+- 新しいFeatureを開発する時　危険な実験したい時(最悪でも実験コード自体がめちゃくちゃになるだけ、マージしない限りに)
+
+### Publish to Remote Repository
+
+
+### Pull Request
+なぜプルリクエストするか：https://backlog.com/ja/git-tutorial/pull-request/01/
 
 
 ### 概念
