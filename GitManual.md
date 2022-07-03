@@ -1,7 +1,7 @@
 # 最もよく使うもの
 
 一つのfeatureが終わったら、この二つコマンドを：
-- `git add .`
+- `git add -p .`
 - `git commit -am <commit-message>`
 
 
