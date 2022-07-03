@@ -13,7 +13,7 @@
 
 
 ### Remote関係
-- `git clone`
+- `git clone`　既存のRepoを取得
 - `git push` 
 
 - `git push —set-upstream origin <branch A>` ブランチAを作成してからはじめてリモートにアップロードする時に使う(リモートにブランチAの作成の命令を出し、ローカルのブランチAと対応させる) 

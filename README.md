@@ -1,3 +1,6 @@
+# GitとGithubでチーム開発
+目標：GitとGithubのコンセプトと基本コマンドをすべて取り上げる
+
 
 ## Git
 - Gitはバージョン管理システム（Version Control System）
@@ -23,15 +26,16 @@ vimdiff r1.py r2.py
 現在直接に編集できるディレクトリ
 - Gitディレクトリー: ディレクトリの歴史・編集履歴が保存される場所
 - **Staging Area/Index**
-  Gitが
+  Gitが管理してくれるファイルで、次のcommitと
 - **Branch**
 <hr>
 
-- **stage** (`git add <file/directory>`) 
-  Staging Areaにファイルに加えた変更を登録する
-- **commit** (`git commit`)
-
+- **stage** (`git add <file/directory>`):
+  Staging Areaにファイルに加えた変更（＝編集記録）を登録する
+- **commit** (`git commit`):
+  複数の編集操作の集合
 - **push** (`git push`)
+  Remote Repoをlocal repoと同期させる。編集歴史をアップロードする
 
 
 
