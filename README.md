@@ -7,24 +7,25 @@
 
 - 何に役立つ？
   - **要するに**、ファイル編集の歴史を記録（コードだけでなく、.`txt`, `.pages`, `.sketch`, `.mp4`などなど、なんでも）
-    - 編集記録をログ書き込む　
+    - 編集をcommit単位でログに残す
     - ある時点の編集状態(commit)に復帰
-- gitを使う前に理解しておくべき一つの概念: 差分 = 編集 
+    - などなど
 
-
-### 複数のファイルの差分を可視化する
-例
+### gitを使う前に理解しておくべき一つの概念: 差分 = 編集の最小単位
+- 複数のファイルの差分を可視化するツール
 ```sh 
 diff r1.py r2.py
-vimdiff r1.py r2.py
+vimdiff r1.py r2.py r1.r3.py
 ```
 
 ### Branch
 - チーム開発の時に、`git clone`でコードダウンロードしてから最初にやること
-- 新しいFeatureを開発する時　危険な実験したい時(最悪でも実験コード自体がめちゃくちゃになるだけ、マージしない限りに)
+- 新しいFeatureを開発する時、あるいは危険な実験したい時(最悪でも実験コード自体がめちゃくちゃになるだけ、マージしない限りに)
 
 ### Publish to Remote Repository
-
+`git fetch`
+`git push`
+`git pull`
 
 ### Pull Request
 なぜプルリクエストするか：https://backlog.com/ja/git-tutorial/pull-request/01/

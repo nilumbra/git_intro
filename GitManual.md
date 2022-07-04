@@ -5,7 +5,6 @@
 - `man git-add`、`man git-merge`のように(ハイフン注意)、`man <command>`で全てのコマンドの説明書を開きます
 
 ## 基本的なワークフロー
-<hr>
 
 編集(新規・削除・ファイル編集・ファイル移動等)を一つのcommitにまとめたい時に、この二つコマンドを：
 - git add
@@ -29,13 +28,13 @@
 - `git branch` ローカルに存在するbranchを確認
 - `git branch -r` リモートに存在するbranchを確認
 
-<hr>
-
-## Merge
+## Branch統合
+### Merge
 - `git merge <branch A>`  　今いるbranchに`branch A`をmergeする（＝branch Aと今いるbranchとの共通祖先からHEADまでの編集を今いるbranchに合体させる）
-- `git rebase <branch A>` 　`branch A`に線形的な編集歴史を保つ
 
-### Remote関係
+### Rebase
+
+## Remote関係
 - `git clone`　リモートのRepoをローカルにダウンロード 
 - `git add remote origin`　
 - `git push` 現在いるブランチAをリモートのブランチAと同期させる
