@@ -4,6 +4,8 @@
 - `-p`, `-A`などのオプションフラグは、同じコマンドであれば基本的に*重ね餅*できます
 - `man git-add`、`man git-merge`のように(ハイフン注意)、`man <command>`で全てのコマンドの説明書を開きます
 
+- 逆引きGit辞書　https://backlog.com/ja/git-tutorial/reference/
+
 ## 基本的なワークフロー
 
 編集(新規・削除・ファイル編集・ファイル移動等)を一つのcommitにまとめたい時に、この二つコマンドを：
