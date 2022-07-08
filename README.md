@@ -49,7 +49,7 @@ vimdiff r1.py r2.py r1.r3.py
   複数の編集操作の集合
 - **push** (`git push`)
   Remote Repoをlocal repoと同期させる。編集歴史をアップロードする
-
+- **remote**
 
 
 
